@@ -1,9 +1,9 @@
 {
-  "versao": "0.2.1",
-  "url": "https://github.com/MatheusBraga1106/hub-sim-racing/releases/download/v0.2.1/HubSimRacing-Setup-0.2.1.exe",
-  "sha256": "8a7616d93e8b2acbb2c6c8a8314fbb3c36fdd95e7725caeb39910f8d718a6003",
-  "tamanho": 23980143,
-  "notas": "Correções e ajustes.\n- Corrige um aviso interno que aparecia ao abrir o hub.\n- Versão para testar a atualização automática: se você está na 0.2.0, clique em Atualizar e o hub se atualiza sozinho.",
+  "versao": "0.2.2",
+  "url": "https://github.com/MatheusBraga1106/hub-sim-racing/releases/download/v0.2.2/HubSimRacing-Setup-0.2.2.exe",
+  "sha256": "48b80e60101a5ffb4950011b6711ebd86165abdcfc57ef94c81a5c02fbe15930",
+  "tamanho": 23988827,
+  "notas": "Calibração e salvar na base mais confiáveis.\n- Calibração dos pedais: os botões não piscam mais e respondem no primeiro clique.\n- Salvar na base: o reinício da base agora é esperado. O hub mostra \"Reiniciando para salvar…\" e confere os valores quando ela volta.\n- O volante do topo para de desenhar quando está coberto pelas seções (menos uso de placa de vídeo).\n- Ajustes: o seletor de tema, que não fazia nada, foi removido. O hub é sempre escuro.",
   "minima": "0.1.0",
-  "assinatura": "0qamr9z19fXix3Dr+rRzw0Kn2cpmfhrlUc0AD4C3Wvy/fVF3ckw/blrWXJawGQS/Mbl6ZJiXWqTKSEscXt9OBA=="
+  "assinatura": "MEPq773jUVTuDbr0ygHf3N6POOdmY9nmWdhqsWTKpkTaAIE45InKd0o1sRN8SyNczZ10dNPkrdVau9MaG07KCA=="
 }
