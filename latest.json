@@ -1,9 +1,9 @@
 {
-  "versao": "0.2.0",
-  "url": "https://github.com/MatheusBraga1106/hub-sim-racing/releases/download/v0.2.0/HubSimRacing-Setup-0.2.0.exe",
-  "sha256": "96b2e27bb802c7198bae6028985d9d0eda90428e7b0b49e11501e654829d4cb2",
-  "tamanho": 23982098,
-  "notas": "Primeira versão com instalador.\n- Seus aparelhos em 3D: volante no topo, câmbio e pedais, com modelos exportados do Fusion.\n- Telemetria automática de Assetto Corsa, ACC e BeamNG: velocidade, marcha, RPM, pedais, voltas, pneus e mapa da pista.\n- Painel para celular e tablet, com dashboards prontos, editor próprio e quatro estilos.\n- \"Qual é o botão?\": mostra a função de cada botão em cada jogo.\n- Calibração dos pedais do FFBeast com gráfico ao vivo e assistente passo a passo.\n- Atualização automática e segura, com um clique.",
+  "versao": "0.2.1",
+  "url": "https://github.com/MatheusBraga1106/hub-sim-racing/releases/download/v0.2.1/HubSimRacing-Setup-0.2.1.exe",
+  "sha256": "8a7616d93e8b2acbb2c6c8a8314fbb3c36fdd95e7725caeb39910f8d718a6003",
+  "tamanho": 23980143,
+  "notas": "Correções e ajustes.\n- Corrige um aviso interno que aparecia ao abrir o hub.\n- Versão para testar a atualização automática: se você está na 0.2.0, clique em Atualizar e o hub se atualiza sozinho.",
   "minima": "0.1.0",
-  "assinatura": "fokwW8mrBeRHR1TIY8v5hsgFx3LwA2zzkb69rtFryjYm6yXlh5abQMDd9R22zUOA641g95bfMxvxW9hvQCspAQ=="
+  "assinatura": "0qamr9z19fXix3Dr+rRzw0Kn2cpmfhrlUc0AD4C3Wvy/fVF3ckw/blrWXJawGQS/Mbl6ZJiXWqTKSEscXt9OBA=="
 }
