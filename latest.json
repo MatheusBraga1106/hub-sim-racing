@@ -1,9 +1,9 @@
 {
-  "versao": "0.2.2",
-  "url": "https://github.com/MatheusBraga1106/hub-sim-racing/releases/download/v0.2.2/HubSimRacing-Setup-0.2.2.exe",
-  "sha256": "48b80e60101a5ffb4950011b6711ebd86165abdcfc57ef94c81a5c02fbe15930",
-  "tamanho": 23988827,
-  "notas": "Calibração e salvar na base mais confiáveis.\n- Calibração dos pedais: os botões não piscam mais e respondem no primeiro clique.\n- Salvar na base: o reinício da base agora é esperado. O hub mostra \"Reiniciando para salvar…\" e confere os valores quando ela volta.\n- O volante do topo para de desenhar quando está coberto pelas seções (menos uso de placa de vídeo).\n- Ajustes: o seletor de tema, que não fazia nada, foi removido. O hub é sempre escuro.",
+  "versao": "0.2.3",
+  "url": "https://github.com/MatheusBraga1106/hub-sim-racing/releases/download/v0.2.3/HubSimRacing-Setup-0.2.3.exe",
+  "sha256": "a971a4bc6dd664580ee18c12bc7cb728cfab4a1f4627a0fcfde3a2fc8b6501e7",
+  "tamanho": 23993642,
+  "notas": "Força no volante de verdade, com o torque estimado em Nm.\n- O antigo \"Torque\" ficava sempre em 0%: a base FFBeast (firmware 24.1.4) não manda esse valor, nem com \"Debug forces\" ligado. Agora o hub mostra a força que o jogo manda ao volante (Assetto Corsa e ACC), na página do FFBeast, no volante do topo e no painel do celular. Fora do jogo, pausado ou no BeamNG, aparece \"—\".\n- Ao lado da porcentagem vem o torque estimado, por exemplo \"62% · ≈ 2,4 Nm\". A conta usa a força do jogo e os seus ajustes da base (força total, força constante e limite de potência).\n- Novo campo \"Torque máximo do motor (Nm)\" na página do FFBeast (padrão 10 Nm). Ele só entra na estimativa e fica gravado no hub, nunca na base.\n- No painel do celular, novo campo \"Torque estimado\" para usar nos dashboards, e o aviso de clipping passa a acender quando o jogo satura a força.",
   "minima": "0.1.0",
-  "assinatura": "MEPq773jUVTuDbr0ygHf3N6POOdmY9nmWdhqsWTKpkTaAIE45InKd0o1sRN8SyNczZ10dNPkrdVau9MaG07KCA=="
+  "assinatura": "wBIt/AqteetFrXd39VMJuIQD3r03S6Jtpia2+DY0zyipXTftMgMRjfK3a7v81CHqPmqS+JDHMHjFcmvkkATgAw=="
 }
