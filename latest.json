@@ -1,9 +1,9 @@
 {
-  "versao": "0.2.3",
-  "url": "https://matheusbraga1106.github.io/hub-sim-racing/baixar/HubSimRacing-Setup-0.2.3.exe",
-  "sha256": "a971a4bc6dd664580ee18c12bc7cb728cfab4a1f4627a0fcfde3a2fc8b6501e7",
-  "tamanho": 23993642,
-  "notas": "Força no volante de verdade, com o torque estimado em Nm.\n- O antigo \"Torque\" ficava sempre em 0%: a base FFBeast (firmware 24.1.4) não manda esse valor, nem com \"Debug forces\" ligado. Agora o hub mostra a força que o jogo manda ao volante (Assetto Corsa e ACC), na página do FFBeast, no volante do topo e no painel do celular. Fora do jogo, pausado ou no BeamNG, aparece \"—\".\n- Ao lado da porcentagem vem o torque estimado, por exemplo \"62% · ≈ 2,4 Nm\". A conta usa a força do jogo e os seus ajustes da base (força total, força constante e limite de potência).\n- Novo campo \"Torque máximo do motor (Nm)\" na página do FFBeast (padrão 10 Nm). Ele só entra na estimativa e fica gravado no hub, nunca na base.\n- No painel do celular, novo campo \"Torque estimado\" para usar nos dashboards, e o aviso de clipping passa a acender quando o jogo satura a força.",
+  "versao": "0.2.4",
+  "url": "https://matheusbraga1106.github.io/hub-sim-racing/baixar/HubSimRacing-Setup-0.2.4.exe",
+  "sha256": "7c1174bc078d9d0b411fb717a91c6f4996ca994319fbd9ff7706e0d837e2b606",
+  "tamanho": 23992218,
+  "notas": "Add-in do Fusion: exporta pedais com juntas no componente raiz e com juntas de mesmo nome em subcomponentes; papel dos pedais pelo nome da junta; aviso quando a Frente escolhida não combina com o eixo dos pedais.",
   "minima": "0.1.0",
-  "assinatura": "O47nGBVTmJTQFW/kZYFEOsV1Qst8RPiDaaf/EUDDV4ZbyjEJhJBuDJgHJp5NBbXPnprLHgadRZHgsrEXzOSrCQ=="
+  "assinatura": "z2bWf3Ol4MgxO6M8btewTmKtOjhIoWZr/YX6XrE8UPM1E+73KjoYxlaqsogq1EQ9sEE+LiUuMOSyXnTDNLv3CA=="
 }
