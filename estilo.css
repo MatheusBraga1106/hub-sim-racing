@@ -1,0 +1,92 @@
+/* Site do Hub Sim Racing: o mesmo visual do hub (wireframe técnico, sempre escuro). Toda cor é um token em :root. */
+:root {
+  --bg: #070707;
+  --panel: #0e0e0e;
+  --ink: #E8E8E5;
+  --ink-2: #A9A9A5;
+  --ink-3: #6F6F6B;
+  --line: #262626;
+  --line-2: #171717;
+  --accent: #EF9F27;
+  --accent-ink: #0A0A0A;
+  --ok: #7FB487;
+  --warn: #E0B45E;
+  --font: "Segoe UI Variable Text", "Segoe UI", system-ui, sans-serif;
+  --mono: "Cascadia Mono", Consolas, ui-monospace, monospace;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--bg); scroll-behavior: smooth; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 var(--font); overflow-x: hidden; -webkit-font-smoothing: antialiased; }
+img { display: block; max-width: 100%; height: auto; }
+a { color: var(--ink); }
+a:hover { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+h1, h2, h3 { margin: 0; font-weight: 300; letter-spacing: -.02em; line-height: 1.1; }
+p { margin: 0; }
+.wrap { width: min(1040px, 100% - 32px); margin-inline: auto; }
+
+/* topo */
+.topo { border-bottom: 1px solid var(--line); background: var(--bg); position: sticky; top: 0; z-index: 5; }
+.topo .wrap { display: flex; align-items: center; gap: 14px; min-height: 56px; }
+.marca { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 600; letter-spacing: .01em; }
+.marca img { width: 30px; height: 30px; }
+.topo nav { margin-left: auto; display: flex; gap: 18px; font: 13px var(--mono); }
+.topo nav a { color: var(--ink-2); text-decoration: none; }
+.topo nav a:hover { color: var(--ink); }
+
+/* abertura */
+.abertura { padding: 72px 0 56px; border-bottom: 1px solid var(--line); }
+.abertura .wrap { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 40px; align-items: center; }
+.abertura h1 { font-size: clamp(38px, 6vw, 68px); }
+.abertura .lema { margin-top: 14px; font-size: clamp(18px, 2.4vw, 24px); color: var(--ink-2); font-weight: 300; }
+.abertura .texto { margin-top: 18px; color: var(--ink-2); max-width: 56ch; }
+.acoes { margin-top: 26px; display: flex; flex-wrap: wrap; align-items: center; gap: 14px; }
+.botao { display: inline-block; padding: 12px 22px; border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink);
+  font-weight: 600; text-decoration: none; letter-spacing: .01em; }
+.botao:hover { background: var(--ink); border-color: var(--ink); color: var(--accent-ink); }
+.nota { font: 12px var(--mono); color: var(--ink-3); }
+.nota.espaco { margin-top: 18px; }
+.moldura { border: 1px solid var(--line); background: var(--panel); padding: 8px; }
+.moldura img { width: 100%; }
+
+/* seções */
+section { padding: 56px 0; border-bottom: 1px solid var(--line); }
+section[hidden] { display: none; }
+.rotulo { font: 500 12px/1.4 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 10px; }
+h2 { font-size: clamp(26px, 3.6vw, 38px); margin-bottom: 18px; }
+.grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 24px; }
+.cartao { border: 1px solid var(--line); background: var(--panel); padding: 18px 20px; }
+.cartao h3 { font-size: 18px; font-weight: 600; letter-spacing: 0; margin-bottom: 8px; }
+.cartao p { color: var(--ink-2); font-size: 15px; }
+.galeria { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px; margin-top: 26px; }
+.galeria figure { margin: 0; border: 1px solid var(--line); background: var(--panel); padding: 8px; }
+.galeria figcaption { padding: 10px 6px 4px; color: var(--ink-3); font-size: 13px; }
+
+/* o que mudou */
+.mudou-versao { font: 500 14px var(--mono); color: var(--ok); }
+.mudou-notas { margin-top: 10px; white-space: pre-wrap; overflow-wrap: anywhere; color: var(--ink-2); border-left: 2px solid var(--line); padding-left: 14px; }
+.mudou-sha { margin-top: 12px; font: 12px var(--mono); color: var(--ink-3); overflow-wrap: anywhere; }
+
+/* requisitos e aviso */
+.lista { margin: 0; padding-left: 20px; display: grid; gap: 6px; color: var(--ink-2); }
+.aviso { margin-top: 22px; border: 1px solid var(--warn); background: var(--line-2); padding: 16px 18px; color: var(--ink-2); }
+.aviso strong { color: var(--warn); }
+code { font: 13px var(--mono); color: var(--ink); background: var(--line-2); padding: 1px 6px; }
+
+.rodape { padding: 32px 0 48px; color: var(--ink-3); font-size: 14px; border-bottom: 0; }
+.rodape .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; }
+
+@media (max-width: 760px) {
+  .abertura { padding: 40px 0 36px; }
+  .abertura .wrap { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .topo nav { gap: 12px; }
+  .topo nav a:nth-child(2), .topo nav a:nth-child(3) { display: none; }
+  section { padding: 40px 0; }
+  .galeria { grid-template-columns: minmax(0, 1fr); }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; animation: none !important; }
+}
