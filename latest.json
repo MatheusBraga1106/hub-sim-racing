@@ -1,9 +1,9 @@
 {
-  "versao": "0.2.4",
-  "url": "https://matheusbraga1106.github.io/hub-sim-racing/baixar/HubSimRacing-Setup-0.2.4.exe",
-  "sha256": "7c1174bc078d9d0b411fb717a91c6f4996ca994319fbd9ff7706e0d837e2b606",
-  "tamanho": 23992218,
-  "notas": "Add-in do Fusion: exporta pedais com juntas no componente raiz e com juntas de mesmo nome em subcomponentes; papel dos pedais pelo nome da junta; aviso quando a Frente escolhida não combina com o eixo dos pedais.",
+  "versao": "0.2.5",
+  "url": "https://matheusbraga1106.github.io/hub-sim-racing/baixar/HubSimRacing-Setup-0.2.5.exe",
+  "sha256": "b4e8bb50d4df5a58ac9a2d2988c9e905faa6bea35107ed3ea6c4750557b591e5",
+  "tamanho": 24000493,
+  "notas": "Calibração dos pedais: pedal cujo valor desce ao pisar (sensor montado ao contrário) agora é medido normalmente e o hub inverte o sentido sozinho. Atualização: o instalador espera o hub fechar antes de instalar (antes ele desistia sem aviso e o hub não reabria).",
   "minima": "0.1.0",
-  "assinatura": "z2bWf3Ol4MgxO6M8btewTmKtOjhIoWZr/YX6XrE8UPM1E+73KjoYxlaqsogq1EQ9sEE+LiUuMOSyXnTDNLv3CA=="
+  "assinatura": "7XrcfUMw2UiZE9zy2REbV7cCG5o0cRxg+r2XZiDot3bgUxcXs5xoE8h9L5zB4EfzamX7UJsYpMa/Xwu3zebOAg=="
 }
