@@ -1,9 +1,9 @@
 {
-  "versao": "0.2.5",
-  "url": "https://matheusbraga1106.github.io/hub-sim-racing/baixar/HubSimRacing-Setup-0.2.5.exe",
-  "sha256": "b4e8bb50d4df5a58ac9a2d2988c9e905faa6bea35107ed3ea6c4750557b591e5",
-  "tamanho": 24000493,
-  "notas": "Calibração dos pedais: pedal cujo valor desce ao pisar (sensor montado ao contrário) agora é medido normalmente e o hub inverte o sentido sozinho. Atualização: o instalador espera o hub fechar antes de instalar (antes ele desistia sem aviso e o hub não reabria).",
+  "versao": "0.2.6",
+  "url": "https://matheusbraga1106.github.io/hub-sim-racing/baixar/HubSimRacing-Setup-0.2.6.exe",
+  "sha256": "8fbd2a3757ef4171efac4e12eb1bf4a89f57f695f975cb56ae225eaec62515e8",
+  "tamanho": 24005516,
+  "notas": "Telemetria do Euro Truck Simulator 2 e do American Truck Simulator: com o plugin scs-telemetry.dll na pasta do jogo, o hub lê velocidade, RPM, marcha, pedais, combustível e G do caminhão. O card Jogos mostra se o plugin está instalado.",
   "minima": "0.1.0",
-  "assinatura": "7XrcfUMw2UiZE9zy2REbV7cCG5o0cRxg+r2XZiDot3bgUxcXs5xoE8h9L5zB4EfzamX7UJsYpMa/Xwu3zebOAg=="
+  "assinatura": "F70mTEg8oDBmffJjNlIL8DWAcuHLvZU9gkxEtzUaM67AWrrifpBIQA9DZtV2fZaupc5qTTkx1mfN3J7SyqagAw=="
 }
