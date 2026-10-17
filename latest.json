@@ -1,9 +1,9 @@
 {
-  "versao": "0.2.6",
-  "url": "https://matheusbraga1106.github.io/hub-sim-racing/baixar/HubSimRacing-Setup-0.2.6.exe",
-  "sha256": "8fbd2a3757ef4171efac4e12eb1bf4a89f57f695f975cb56ae225eaec62515e8",
-  "tamanho": 24005516,
-  "notas": "Telemetria do Euro Truck Simulator 2 e do American Truck Simulator: com o plugin scs-telemetry.dll na pasta do jogo, o hub lê velocidade, RPM, marcha, pedais, combustível e G do caminhão. O card Jogos mostra se o plugin está instalado.",
+  "versao": "0.2.7",
+  "url": "https://matheusbraga1106.github.io/hub-sim-racing/baixar/HubSimRacing-Setup-0.2.7.exe",
+  "sha256": "3f6c65de08b5b9932650d9bfcb6b9ffc52f00e1733152b9d317ffca0c2337268",
+  "tamanho": 24009898,
+  "notas": "Versão 0.2.7.",
   "minima": "0.1.0",
-  "assinatura": "F70mTEg8oDBmffJjNlIL8DWAcuHLvZU9gkxEtzUaM67AWrrifpBIQA9DZtV2fZaupc5qTTkx1mfN3J7SyqagAw=="
+  "assinatura": "97hW99M6w9hwYLSSp2W/gnnbA+TPsVGVObNy8AImQ204GDoZexZ1LfKAt+1eYd096Mu6R3Co49XqFTPpDgICCA=="
 }
