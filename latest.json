@@ -1,9 +1,9 @@
 {
-  "versao": "0.2.7",
-  "url": "https://matheusbraga1106.github.io/hub-sim-racing/baixar/HubSimRacing-Setup-0.2.7.exe",
-  "sha256": "3f6c65de08b5b9932650d9bfcb6b9ffc52f00e1733152b9d317ffca0c2337268",
-  "tamanho": 24009898,
-  "notas": "Versão 0.2.7.",
+  "versao": "0.2.8",
+  "url": "https://matheusbraga1106.github.io/hub-sim-racing/baixar/HubSimRacing-Setup-0.2.8.exe",
+  "sha256": "8bcb3d7a2264d1d3fb1547fe6974b72f9a7338b01ba3385f528b515179ac13d7",
+  "tamanho": 24008194,
+  "notas": "Versão 0.2.8.",
   "minima": "0.1.0",
-  "assinatura": "97hW99M6w9hwYLSSp2W/gnnbA+TPsVGVObNy8AImQ204GDoZexZ1LfKAt+1eYd096Mu6R3Co49XqFTPpDgICCA=="
+  "assinatura": "BtLEIKDEoVu/+7GorAG48XQXkvq0IL/xBMI6BItIr+RN3GaAnSlDTLKTC9sz2c6Pxaur90YZxpAnur+aTVMcBQ=="
 }
